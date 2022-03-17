@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacúnate</title>
+    <script src="https://kit.fontawesome.com/3bc89bb397.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Imagenes/vac.png">
+    <link rel="stylesheet" type="text/css" href="./vacunacion.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-header">
+            <a href="#" class="nav-logo"><h3>Vacúnate</h3></a>
+            <label for="nav-menu-icon" class="nav-label">
+                <i class="nav-icon" name="icon-menu"></i>
+            </label>
+            <input type="checkbox" id="nav-menu-icon" class="nav-menu-icon">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="#registro" class="nav-menu-link">Registro</a></li>
+                <li class="nav-menu-item"><a href="#marcasvac" class="nav-menu-link">Educación</a></li>
+                <li class="nav-menu-item"><a href="#preparaciones" class="nav-menu-link">Preparativos</a></li>
+                <li class="nav-menu-item"><a href="#contacto" class="nav-menu-link">Contacto</a></li>
+                <li class="nav-menu-item"><a href="https://www.hoaxbuster.com/covid19" class="nav-menu-link">Hoax Buster</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section-divided" id="registro">
+            <div class="section-information">
+                <div class="information-content">
+                    <h1>Cobatamos al Virus<br>con VACUNAS</h1>
+                    <p>Detengamos ésta pandemia matando 
+                    al virus con una Vacuna. 
+                    No permitas que tú y tu familia se infecten.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-shield icono-gold"></i>Con la mejor protección</li>
+                        <li><i class="fa-solid fa-star icono-gold"></i>Con las mejores Vacunas</li>
+                    </ul>
+                    <br><br><br><br><br>
+                    <br><br><br><br><br>
+                    <h4><i class="fa-solid fa-clock icono-agenda"></i>Ajenda tu vacunación</h4>
+                    <div class="schedule">
+                        <div class="schedule-section">
+                            <h5>
+                                <i class="fa-solid fa-location-dot icono-agenda"></i>
+                                <label for="ubicacion" class="input-value">Ubicación</label>
+                            </h5>
+                            <select name="ubicacion" id="ubicacion" class="input-style">
+                                <option value="Aguascalientes">Aguascalientes</option>
+                                <option value="BajaCalifornia">Baja California</option>
+                                <option value="BajaCaliforniaSur">Baja California Sur</option>
+                                <option value="Campeche">Campeche</option>
+                                <option value="Chiapas">Chiapas</option>
+                                <option value="Chihuahua">Chihuahua</option>
+                                <option value="CDMX">CDMX</option>
+                                <option value="Coahuila">Coahuila</option>
+                                <option value="Colima">Colima</option>
+                                <option value="Durango">Durango</option>
+                                <option value="Guanajuato">Guanajuato</option>
+                                <option value="Guerrero">Guerrero</option>
+                                <option value="Hidalgo">Hidalgo</option>
+                                <option value="Jalisco">Jalisco</option>
+                                <option value="Mexico">México</option>
+                                <option value="Michoacan">Michoacán</option>
+                                <option value="Morelos">Morelos</option>
+                                <option value="Nayarit">Nayarit</option>
+                                <option value="NuevoLeon">Nuevo León</option>
+                                <option value="Oaxaca">Oaxaca</option>
+                                <option value="Puebla">Puebla</option>
+                                <option value="Queretaro">Queretaro</option>
+                                <option value="Quintana">Quintana Roo</option>
+                                <option value="SLP">San Luis Potosí</option>
+                                <option value="Sinaloa">Sinaloa</option>
+                                <option value="Sonora">Sonora</option>
+                                <option value="Tabasco">Tabasco</option>
+                                <option value="Tamaulipas">Tamaulipas</option>
+                                <option value="Tlaxcala">Tlaxcala</option>
+                                <option value="Veracruz">Veracruz</option>
+                                <option value="Yucatan">Yucatán</option>
+                                <option value="Zacatecas">Zacatecas</option>
+                            </select>
+                        </div>
+                        <div class="schedule-section">
+                            <h5>
+                                <i class="fa-solid fa-calendar-days icono-agenda"></i>
+                                <label for="date" class="input-value">Fecha</label>
+                            </h5>
+                            <input type="date" class="input-style" name="date" id="date">
+                        </div>
+                        <div class="schedule-section">
+                            <h5>
+                                <i class="fa-solid fa-syringe icono-agenda"></i>
+                                <label for="tipovac" class="input-value">Tipo de Vacuna</label>
+                            </h5>
+                            <select name="tipovac" id="tipovac" class="input-style">
+                                <option value="AstraZeneca">AstraZeneca</option>
+                                <option value="Sinovac">SinoVAC</option>
+                                <option value="Pfizer">Pfizer</option>
+                                <option value="Moderna">Moderna</option>
+                            </select>
+                        </div>
+                        <div class="schedule-section schedule-btn">
+                            <button class="aceptar">Aceptar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-image">
+                <img src="./Imagenes/PrimeNurse.png" alt="EnfermeraPrincipal">
+            </div>
+        </section>
+        <br><br><br><br><br>
+        <section class="section-vaccines" id="marcasvac">
+            <div class="image-container">
+                <img src="./Imagenes/astrazeneca (1).png" alt="logo AstraZeneca">
+            </div>
+            <div class="image-container">
+                <img src="./Imagenes/Sinovac_logo.png"  alt="logo Sinovac">
+            </div>
+            <div class="image-container">
+                <img src="./Imagenes/Pfizer.png"  alt="logo Pfizer">
+            </div>
+            <div class="image-container">
+                <img src="./Imagenes/moderna.png"  alt="logo Moderna">
+            </div>
+        </section>
+        <section class="section-question" id="educacion">
+            <div class="question-content">
+                <h2>¿Por qué debería vacunarme</h2>
+                <p>Para evitar cualquier duda que pudieramos tener con respecto a la vacuna de COVID-19,
+                toma en cuenta los siguientes 4 beneficios acerca de la vacunación contra COVID-19:
+                </p>
+            </div>
+        </section>
+        <section class="section-benefits" id="beneficios">
+            <div class="benefit-item">
+                <i class="fa-solid fa-sliders icon-question"></i>
+                <h4>Minimiza la propagación del virus</h4>
+                <p>La vacuna ha demostrado ser eficaz para evitar
+                    que alguien se infecte con el COVID-19
+                </p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-shield icon-question"></i>
+                <h4>Formación de anticuerppos</h4>
+                <p>Se ha probado que la vacuna contra el COVID-19 ayuda a tener una mejor respuesta
+                    del Sistema Inmunológico para la creación de anticuerpos
+                </p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-users icon-question"></i>
+                <h4>Protejer a las personas a nuestro alrededor</h4>
+                <p>Las vacunas que recibimos también ayudan a protejer
+                    a las personas que nos rodean</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-chart-line icon-question"></i>
+                <h4>Creacipon de Inmunidad en Grupo</h4>
+                <p>La vacunación contra el COVID-19 también es beneficiosa
+                    para crear inmunidad de grupo o de rebaño
+                </p>
+            </div>
+        </section>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <section class="section-preparations" id="preparaciones">
+            <div class="section-image">
+                <img src="./Imagenes/girl.png" alt="Chica Vacunación">
+            </div>
+            <div class="section-information">
+                <div class="preparation-content">
+                    <h2>Preparaciones anteriores a la vacuna</h2>
+                    <p>El éxito de las vacunas está fuertemente influenciado
+                        por la fortaleza del sistema inmunológico de nuestro cuerpo.
+                        Por lo tanto, hay varias cosas que se pueden intentar
+                        para que la vacuna contra el COVID-19 funcione:
+                    </p>
+                    <ul class="preparation-list">
+                        <li><i class="fa-solid fa-circle-xmark icon-preparation"></i>Evite las bebidas alcohólicas</li>
+                        <li><i class="fa-solid fa-square-xmark icon-preparation"></i>Evite el estrés</li>
+                        <li><i class="fa-solid fa-square-poll-vertical icon-preparation"></i>Consuma comida saludable</li>
+                        <li><i class="fa-solid fa-square-check icon-preparation"></i>Duerma lo suficiente</li>
+                        <li><i class="fa-solid fa-heart icon-preparation"></i>Realizar ejercicio o alguna actividad física</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section-contact" id="contacto">
+            <div class="section-information">
+                <div class="preparation-content">
+                    <h2>Contacto de Emergencia</h2>
+                    <p>Ponte en contacte a través de alguno de los siguientes medios
+                        si tú o alguien de tu familia no se siente bien y tiene
+                        síntomas similares a los de COVID-19.
+                        Asegurate de cuidarte lo mejor posible y mantener las precauciones
+                        necesarias antes de contactarnos:
+                    </p>
+                    <div class="contact-container">
+                        <div class="contact-element">
+                            <div class="contact-type">
+                                <i class="fa-solid fa-phone icon-contact"></i>
+                                <h4>Teléfono</h4>
+                                <p>55-01-02-03-04</p>
+                            </div>
+                            <div class="contact-button">
+                                <button>Llamar ahora</button>
+                            </div>
+                        </div>
+                        <div class="contact-element">
+                            <div class="contact-type">
+                                <i class="fa-solid fa-comment-dots icon-contact"></i>
+                                <h4>WhatsApp</h4>
+                                <p>55-01-02-03-04</p>
+                            </div>
+                            <div class="contact-button">
+                                <button>Iniciar Chat</button>
+                            </div>
+                        </div>
+                        <div class="contact-element">
+                            <div class="contact-type">
+                                <i class="fa-solid fa-video icon-contact"></i>
+                                <h4>Video Llamada</h4>
+                                <p>55-01-02-03-04</p>
+                            </div>
+                            <div class="contact-button">
+                                <button>Realiza Video Llamada</button>
+                            </div>
+                        </div>
+                        <div class="contact-element">
+                            <div class="contact-type">
+                                <i class="fa-solid fa-envelope icon-contact"></i>
+                                <h4>Mensaje de Texto</h4>
+                                <p>55-01-02-03-04</p>
+                            </div>
+                            <div class="contact-button">
+                                <button>Mandar Mensaje</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-image">
+                <img src="./Imagenes/male-nurse.png" alt="A man just for ilustration">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-vaccination">
+            <h3>Vacúnate</h3>
+            <p>Nuestro objetivo es ayudar al mundo a liberarse de la actual pandemia</p>
+        </div>
+        <div class="footer-information">
+            <div class="footer-element">
+                <h4>Acerca de</h4>
+                <ul>
+                    <li>Acerca de nosotros</li>
+                    <li>Características</li>
+                    <li>Noticias</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="footer-element">
+                <h4>Compañía</h4>
+                <ul>
+                    <li>¿Cómo trabajamos?</li>
+                    <li>Capital</li>
+                    <li>Seguridad</li>
+                </ul>
+            </div>
+            <div class="footer-element">
+                <h4>Soporte</h4>
+                <ul>
+                    <li>Preguntas Frecuentes</li>
+                    <li>Centro de Soporte</li>
+                    <li>Contáctanos</li>
+                </ul>
+            </div>
+        </div>
+        <p class="p1">@2021 CampañaVacunación. Todos los derechos reservados</p>
+        <div class="p2">
+            <p>Terminos y Condiciones</p>
+            <p>Política de privacidad</p></div>
+    </footer>
+</body>
+</html>
